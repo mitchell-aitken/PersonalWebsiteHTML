@@ -27,6 +27,14 @@ header nav ul li a {
   color: #fff;
 }
 
+header h1 {
+  font-size: 2.5em; 
+  color: #000000; 
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+
 main {
   max-width: 800px;
   margin: 20px auto;
@@ -72,6 +80,14 @@ main th {
   background-color: #808080;
 }
 
+/* hyperlink colours*/
+a {
+  color: #4dafff; /* Green color */
+  text-decoration: none; /* Remove underline by default, adjust as needed */
+}
 
+a:hover {
+  color: #008000; /* Darker green color on hover, adjust as needed */
+}
 
 /*# sourceMappingURL=styles.css.map */
