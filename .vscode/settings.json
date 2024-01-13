@@ -1,0 +1,25 @@
+{
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/css"
+        }
+    ],
+    "liveSassCompile.settings.autoprefix": [
+        "> 1%",
+        "last 2 versions"
+    ],
+    "liveSassCompile.settings.excludeList": [
+        "**/node_modules/**",
+        ".vscode/**",
+        "**/*.js",
+        "**/*.jsx",
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.html",
+        "**/*.json"
+    ],
+    "liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.root": "/Users/mitch/OneDrive/Desktop/Uni/ENGO551/project0/project0"
+}
