@@ -1,4 +1,4 @@
-# Project 0 - # Mitchell Aitken's Personal Website
+# Project 0 - Mitchell Aitken's Personal Website
 
 ENGO 551 - Adv. Topics on Geospatial Technologies
 
