@@ -1,7 +1,13 @@
 $primary-color: #3498db; /* SCSS variable */
+$common-text-color: #fff;
+
+%common-text-styles { /* creating for inheritance */
+    color: $common-text-color; 
+    font-family: 'Arial', sans-serif;
+}
 
 body {
-    font-family: 'Arial', sans-serif;
+    @extend %common-text-styles; /*utilizing inheritance*/
     margin: 0;
     padding: 0;
     background-image: url('../images/treebackground.webp'); /* makes the path to go up one level to the project0 folder and then into the images folder */
@@ -10,12 +16,15 @@ body {
     background-color: #f0f0f0;
 }
 
+
+
 header {
     background-color: $primary-color;
-    color: #fff;
     padding: 10px;
     text-align: center;
 
+    @extend %common-text-styles; /* Inherit common text styles */
+    
     nav {
         ul {
             list-style: none;
@@ -27,7 +36,7 @@ header {
 
                 a {
                     text-decoration: none;
-                    color: #fff;
+                    @extend %common-text-styles; 
                 }
             }
         }
@@ -52,16 +61,15 @@ main {
         border-radius: 8px;
         margin-top: 20px;
     }
-
-    
 }
 
 footer {
     background-color: $primary-color;
-    color: #fff;
     text-align: center;
     padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
+
+    @extend %common-text-styles; /* Inherit common text styles */
 }
