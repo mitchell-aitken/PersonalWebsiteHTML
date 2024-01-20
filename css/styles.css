@@ -14,6 +14,8 @@ header {
   padding: 10px;
   text-align: center;
 }
+
+
 header nav ul {
   list-style: none;
   padding: 0;
@@ -90,4 +92,29 @@ a:hover {
   color: #008000; /* Darker green color on hover, adjust as needed */
 }
 
-/*# sourceMappingURL=styles.css.map */
+/* @media query for phone screens */
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 14px; /* Reduced body font size for smaller screens */
+  }
+
+  header h1 {
+    font-size: 2em; /* Reduced header font size for smaller screens */
+  }
+
+  main {
+    max-width: 100%; /* Adjusted for full width on smaller screens */
+    margin: 10px; /* Reduced margin for smaller screens */
+  }
+
+  main h2 {
+    font-size: 1.8em; /* Reduced font size for smaller screens */
+  }
+
+  main p {
+    line-height: 1.4; /* Reduced line height for smaller screens */
+  }
+
+}
+
+
