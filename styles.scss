@@ -1,10 +1,10 @@
-$primary-color: #3498db; // Example SCSS variable
+$primary-color: #3498db; /* SCSS variable */
 
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('../images/treebackground.webp'); /* Adjust the path to go up one level to the project0 folder and then into the images folder */
+    background-image: url('../images/treebackground.webp'); /* makes the path to go up one level to the project0 folder and then into the images folder */
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #f0f0f0;

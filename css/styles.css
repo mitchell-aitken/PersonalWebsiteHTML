@@ -64,21 +64,22 @@ footer {
   width: 100%;
 }
 
-/*tables */
-main table {
+/*tables and ID selector*/ 
+#work-experience-table {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 20px;
   background-color: #f2f2f2;
 }
 
-main th, main td {
+#work-experience-table th,
+#work-experience-table td {
   border: 1px solid #000000;
   text-align: left;
   padding: 8px;
 }
 
-main th {
+#work-experience-table th {
   background-color: #808080;
 }
 
